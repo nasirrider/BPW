@@ -1,0 +1,108 @@
+<style>
+  
+main {}
+
+header {
+  background-color: rgba(0, 0, 0,.4);
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.25);
+  font-size: 35px;
+  color: white;
+  margin: 50px 300px 100px 300px;
+}
+body {
+ background-image: url('https://p0.pxfuel.com/preview/726/566/441/nature-landscape-forest-trees.jpg');
+  font-family: Courier-new;
+  color: white;
+  text-align: center;
+  border: solid black 4px;
+  height: 845px;
+}
+ .vertical-menu {
+  width: 170px;
+  float:left;
+  padding: 0px 0px 0px 69px;
+}
+.vertical-menu a {
+  background-color: rgba(0,0,0,.4);
+  border-style:solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.25);
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color:rgba(0,30,0,.75);
+}
+
+.vertical-menu a.active {
+  background-color: rgba(30,30,30,.75);
+  color: white;
+}
+
+.paragraph {
+  border: solid;
+  border-color:rgba(0,0,0,.10);
+  background-color: rgba(0,0,0,.66);
+  color: white;
+  text-align: center;
+  width: 1000px;
+  margin: 50px 300px -100px 440px;
+  padding-left: 10px;
+}
+
+footer {
+  width: 100%;
+  position:relative;
+  background-color:rgba(0,0,0,0);
+  color: white;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+}
+ #mylogo {
+  padding-top:149px;
+   padding-right:30px;
+  }
+
+</style>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multipage website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body> 
+    <main>
+      <header>
+        <h1>Enspooklopedia</h1>
+      </header>
+    <div class="vertical-menu">
+
+    <a href="https://codepen.io/celaenoscope/full/oNevMYX" alt="The home page of the website.">Home</a>
+    <a href="https://codepen.io/celaenoscope/full/eYENKxg" alt="A page about the creator of the website.">About Me</a>
+    <a href="https://codepen.io/celaenoscope/full/KKvwjmv" "A content page with information about serialized podcasts.">Serial Podcasts</a>
+    <a href="https://codepen.io/celaenoscope/full/QWMbwMV" alt="A content page with information about anthological podcasts.">Anthology Podcasts</a>
+    <a href="https://codepen.io/celaenoscope/full/VwzLqba" alt="A page with a form to contant the webside creator.">Contact</a>
+</div>
+  <div class="paragraph">
+  <h2 id="myparagraph">A personal website wherein I can document my thoughts and opinons on various supernatural and/or horror podcasts. I have broken them up into two broad categories, serialized podcasts with a continuous narrative, and anthological podcasts where an unconnected story is told each episode; all opinions presented are my own and no ill-will is intended towards any persons or corporations. </h2>
+  </div>
+  <div id="mylogo">
+  <img src="https://64.media.tumblr.com/b5298a6b33901d77e0c4b825dcc8cc6b/bc1b79f7fd80a987-7c/s540x810/759038cba1b9c34bb67b5162d2efdd5f6fcb8bf7.png" alt="A black swirl that gets light as it goes towards the center." height="250px" width="250px">
+  </div>
+  <footer>
+    <p>&copyCelaenoscope 2021</p>
+  </footer>
+</main>
+  </body>
